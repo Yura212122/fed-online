@@ -16,7 +16,7 @@
      background-color: white;
  }
  .menu-items h2{
-   padding: 0 4px;
+   padding: 0  4px;
  }
  .position-img{
    width: 74px;
@@ -24,7 +24,6 @@
    border-radius: 12px;
    background-color: #eae2b7;
  }
-
    .position-title{
       color: black;
    } 
