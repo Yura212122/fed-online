@@ -1,0 +1,95 @@
+*{
+ 
+box-sizing: border-box ;
+  
+}
+ 
+ .position{
+  z-index: 1;
+  width:512px ;
+  height: 512px;
+  padding: 50px;
+  background-color:  black;
+  text-align: center;
+  position: absolute;
+  top:50px;
+  left:50px;
+ }
+ .item{
+  z-index: 2;
+   border:2px  solid blue;
+  width:512px ;
+  height: 512px;
+  padding: 50px;
+  background-color:    white;
+  text-align: center;
+  position: absolute;
+  top:950px;
+  left:950px;
+ }
+ .item2{
+  z-index:3;
+  width:512px ;
+  height: 512px;
+  padding: 50px;
+  background-color:rgba(255, 206, 34, 1);
+  ;
+  text-align: center;
+  position: absolute;
+  top:500px;
+  left:500px;
+ }
+  .position2{
+    width: 80px;
+    height: 60px;
+    background-color:rgba(255, 206, 34, 1);
+    ;
+    position: relative;
+    top:   -84px;
+    left: 168px;
+    border-radius: 6px  ;
+  }
+   .position > img{
+    width: 400px;
+    height: 400px;
+   }
+   .position3{
+    width: 80px;
+    height: 33px;
+    background-color: blue;
+    position: relative;
+    top:    0px;
+    left:  0px;
+    border-radius: 6px 6px 0px 0px ;
+   }
+    .item3{
+      width: 512px;
+      height: 256px;
+      background-color: blue;
+      position: relative;
+      top: -50px;
+      left: -50px;
+    }
+    .item3 > img{
+      top: 145px;
+      left: 0px;
+position: relative;
+    }
+    .circle::before {
+      color:rgba(255, 206, 34, 1)  ;
+      content: ' \25CF';
+        font-size: 1030px;
+        position: relative;
+        top: -438px;
+        left: -104px;
+    }
+    .circle > img{
+      position: relative;
+    top: -1196px;
+    left: -15px
+    }
+    .tag{
+      position: relative;
+      top: -1219px;
+      left: 0px;
+    }
