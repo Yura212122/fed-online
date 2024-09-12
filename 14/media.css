@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+     
+}
+body{
+   
+}
+ .container{
+      padding: 50px 0px;
+       text-indent: 45px;
+    font-size: 24px;
+     
+ }
+ .container h{
+  margin-right: 20px;
+ }
+ .black{
+    font-size:26px;
+    color: white;
+    width: 163px;
+    height: 60px;
+     background-color: black;
+       margin-left: -60px;  
+       position: relative;
+       top: -19px;
+       left: 675px;
+ }
+ p{
+     position: relative;
+     top: -10px;
+     left: -5px;
+ }
+  .container nav{
+    float: inline-start;
+  }
+  .search button{
+ margin: 0px 200px 0px 0px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    float: inline-end;
+    position: relative;
+    top: -70px;
+    
+   }
+    .text{
+        padding: 200px 150px;
+    }
+    .text h1{
+    font-size: 60px;
+   }
+    .text p{
+        margin: 10px;
+    font-size: 18px;
+    margin-top: -30px;
+   }
+   .shop{
+    
+    background-color: black;
+    width: 195px;
+height: 50px;
+border-radius: 15px;
+   }
+   .shop button{
+     font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+   position: relative;
+   top: 13px;
+    left: 40px;
+   }
+      .shop :hover{
+    color:  gray;
+   }
+   .boot1{
+      float: right;
+      position:  relative;
+      top: -380px;
+      left: -720px;
+      
+
+   }
+   .boot2{
+    float: right;
+    position:  relative;
+    top: -430px;
+    left: 500px;
+}
+
+   .buy {
+    display: flex;
+    justify-content: first baseline;
+    margin: 50px 150px;
+   }
+   .man>img{
+    margin-left: 120px;
+   }
+    .women h2{
+        color: white;
+        position: relative;
+        top: -470px;
+          left: 20px;
+         font-size: 40px;
+    }
+    .women button{
+      color: white;
+       font-size: 20px; 
+       background-color: transparent;
+       border: none;
+       position: relative;
+       top: -210px;
+       left: -38px;
+       float: right;
+    }
+    .man h3{
+        color:  white;
+        position: relative;
+        top: -475px;
+        left: 145px;
+         font-size: 40px; 
+    }
+    .man button {
+        color:  black;
+        font-size: 20px; 
+        background-color: transparent;
+        border: none;
+        position: relative;
+        top: -224px;
+    left: 160px;
+        float:  left;  
+    }
+      h4{
+      font-size: 30px;
+      position: relative;
+      top: -100px;
+      margin: 0px 150px;
+    }
+     .first {
+       padding-left: 150px;
+     }
+       .second{
+        float: right;
+       }
+       .fifth{
+        margin: 0px 90px 0px 90px;
+       }
+       .six{
+        margin: 0px 90px 0px 90px;
+       }
+        
+ .name{
+  color: black;
+ }
+       
+       .name h{
+        font-size: 18px;
+        display: inline-block;
+        
+       }
+       .third{
+        margin-left: 150px;
+       }
+       .line{
+        margin: 0px 0px 0px 290px;
+       }
+       .topic{
+        margin: 0px 0px 0px 290px ;
+       }
+       .top{
+        margin: 0px 290px 0px 290px ;
+       }
+       .blue{
+        margin: 0px 0px 0px 30px;
+       }
+       .scrol{
+        background-color: rgba(225, 225, 225, 1);
+        margin-left: 150px;
+        width: 1700px;
+        border: 3px solid   rgba(225, 225, 225, 1);
+        ;
+       }
+       .scrol-black{
+        width: 200px;
+        border: 3px solid black;
+        ;
+       }
+       .kick h5{
+        font-size: 30px;
+        margin-top: 140px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+       }
+        
+       .first-women {
+        padding-left: 150px;
+      }
+        .second-women{
+         float: right;
+        }
+        .fifth-women{
+         margin: 0px 90px 0px 90px;
+        }
+        .six-women{
+         margin: 0px 90px 0px 90px;
+        }
+        .new-name h{
+          font-size: 18px;
+          display: inline-block;
+          
+         }
+         .third-man{
+          margin-left: 150px;
+         }
+         .line-man{
+          margin: 0px 0px 0px 290px;
+         }
+         .topic-man{
+          margin: 0px 0px 0px 290px ;
+         }
+         .top-man{
+          margin: 0px 290px 0px 290px ;
+         }
+         .blue-man{
+          margin: 0px 0px 0px 30px;
+         }
+         .scrol-second{
+          background-color: rgba(225, 225, 225, 1);
+          margin-left: 150px;
+          width: 1700px;
+          border: 3px solid   rgba(225, 225, 225, 1);
+         }
+         .scrol-black-second{
+          width: 200px;
+          border: 3px solid black;
+          ;
+         }
+         .topic-second h6{
+          margin-top: 150px;
+          text-align: center;
+          font-size: 40px;
+         }
+         .topic-second p{
+          text-align: center;
+          font-size: 18px;
+          margin-top: -50px;
+         }
+         .link{
+          width: 235px;
+height: 55px;
+ border: 2px solid black;
+   position: relative;
+ left: 830px;
+         }
+         .link button{
+          background-color: transparent;
+          border: none;
+           position: relative;
+           top: 17px;
+           left: 50px;
+         }
+         .bottom{
+          margin-top: 150px;
+          background-color: black;
+          width: 100%;
+          height: 285px;
+         }
+         .bottom-content {
+           display: flex;
+           justify-content: flex-start;
+           
+      margin: 150px;
+      padding-top: 50px;
+       
+         }
+           
+           .bottom-content h{
+          color:   rgba(196, 196, 196, 1);
+          font-size:14px;
+           
+         }
+           .bottom-content p{
+            color: white;
+            font-size: 14px;
+           position: relative;
+           top: 10px;
+            
+          }
+          .help{
+            position: relative;
+            left: -35px;
+          }
+          .about{
+            position: relative;
+            left: -46px;
+          }
+            .stuff{
+              position: relative;
+              left: -91px;
+            }
+            .acount{
+              position: relative;
+              left: -92px;
+            }
+             .folow{
+               display: flex; 
+               justify-content: baseline;
+                float: right;
+                margin-right: 100px;
+                position: relative;
+                top: -160px;
+             }
+              
+              .facebook{
+                width: 25px;
+                height: 25px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                   
+                 margin-right: 15px;
+              }
+              .instagram{
+                width: 25px;
+                height: 25px;
+                border-radius: 50px;
+                background-color: white;
+                 text-align: center; 
+                 margin-right: 15px;
+              }
+              .twiter{
+                width: 25px;
+                height: 25px;
+                border-radius: 50px;
+                background-color: white;
+                 text-align: center;
+                 margin-right: 15px;
+              }
+              .in{
+                width: 25px;
+                height: 25px;
+                border-radius: 50px;
+                background-color: white;
+                 text-align: center;
+              }
+           .facebook>img{
+            position: relative;
+            top: 5px;
+           }
+           .instagram>img{
+            position: relative;
+            top: 5px;
+           }
+           .twiter>img{
+            position: relative;
+            top: 5px;
+           }
+           .in>img{
+            position: relative;
+            top: 5px;
+           }
+           .FOLLOw h1{
+color: rgba(196, 196, 196, 1);
+font-size: 14px;
+ float: right;
+ position: relative;
+ top: -230px;
+ left: 115px;
+           }
+           
+            
+          
+           
