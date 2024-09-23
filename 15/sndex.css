@@ -53,7 +53,7 @@ border-radius: 8px;
  
    width: 812px;
   height: 812px;
-background-image: url( fone.png);   
+background-image: url( fonee.png);   
 background-repeat: no-repeat;  
 background-size: contain;
 border-radius: 50%;
@@ -211,7 +211,7 @@ padding: 7px;
   
   width: 312px;
   height: 312px;
-background-image: url( fone.png);   
+background-image: url( fonee.png);   
 background-repeat: no-repeat;  
 background-size:  contain;
 border-radius: 50%;
@@ -253,7 +253,7 @@ margin-left:  10px;
         margin-left: 0px;
         
      }
-     .will i {
+     .will i{
       
 position: relative;
 top: 12px;
