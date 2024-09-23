@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ 
+}
+ 
+@media(min-width:400px){
+.container{
+display: flex;
+justify-content: space-between  ;
+ 
+
+}
+.container h1{
+    color:   rgba(188, 67, 106, 1);
+     margin-left: 5%;
+     padding-top: 10px;
+}
+
+ .second-container{
+  display: flex;
+  justify-content: flex-end;
+ margin: 40px 2%;
+     
+ }
+ .second-container  h{
+  
+    margin-right: 70px;
+    font-size: 18px;
+ }
+ .book {
+    color: white;
+    width:  102px ;
+height:  38px ;
+border-radius: 8px;
+ background-color:  rgba(56, 110, 65, 1);
+ text-align: center;
+ position: relative;
+   top: -10px;
+   padding: 7px;
+ }
+ .home {
+    color:   rgba(188, 67, 106, 1);
+ }
+
+  
+ .best,.vaca {
+    color: rgba(188, 67, 106, 1);
+ }
+ 
+ .img{
+ 
+   width: 812px;
+  height: 812px;
+background-image: url( fone.png);   
+background-repeat: no-repeat;  
+background-size: contain;
+border-radius: 50%;
+overflow: hidden;
+ margin-top: 0px;
+ float: right;
+ position: fixed;
+    right: -100px;
+ }
+ 
+ .topic{
+   margin-left: 100px;
+    padding-top: 4%;
+   font-size:  200%;
+   
+ }
+     .text p{
+        font-size:  100%;
+        color:  rgba(122, 122, 122, 1);
+     }
+     .green{
+  width: 1500px; 
+  height: 100px;      
+        background-color:  rgba(56, 110, 65, 1);
+        margin-left: 100px;
+        border-radius: 10px;
+           position:  fixed;
+           top: 790px;
+     }
+      .border{
+         width: 120px;
+         height: 120px;
+         border: 10px solid green ;
+          position: fixed;
+          top: 575px;
+          left: -40px;
+      }
+      .will{
+         display: flex;
+         justify-content: flex-start;
+         margin-left: 100px;
+         margin-top: 240px;
+      }
+      .will h3{
+         color: rgba(122, 122, 122, 1) ;
+         font-size: 112%;
+         margin-left: 0px;
+      }
+      .will i{
+position:  fixed;
+top: 764px;
+margin-left: 215px;
+      }
+       .green{
+          
+         padding-top: 40px;
+               color: white;
+          display: flex;
+          justify-content: space-between;
+      }
+      .link nav{
+           font-size:  18px;
+         color: white;
+          padding-left: 230px;
+      }
+        .link{
+         display: flex;
+         justify-content: space-between;
+       }
+       .line-first, .line-second, .line-third{
+         border-top: 2px solid white;
+         width: 220px; 
+          
+       }
+       .line-second{
+        position: relative;
+        top: 25px;
+        left: -1050px;
+       }
+       .line-third{
+         position: relative;
+         top: -2px;
+         left: 288px;
+       }
+       .line-first{
+         position: relative;
+         top: -2px;
+         left: 261px;
+       }
+       .chevron{
+display: flex;
+justify-content: space-between;
+ 
+       }
+       
+        .one{
+         position: relative;
+         left: -765px;
+      }
+      .two{
+         position: relative;
+         left: -495px;
+      }
+ .tree{
+   position: relative;
+   left: -245px;
+ }
+     .link .red{
+   color: rgba(188, 67, 106, 1) ;
+    
+ }
+ }
+  
+    
+ 
+ @media(max-width:  390px){
+   
+  .container h1{
+    color: rgba(188, 67, 106, 1) ;
+   text-align: center;
+   
+ }
+ .second-container h{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ .home{
+  color: rgba(188, 67, 106, 1) ;
+ }
+ .book{
+  color: white;
+  width:  102px ;
+height:  38px ;
+border-radius: 8px;
+background-color:  rgba(56, 110, 65, 1);
+position: relative;
+top: -10px;
+padding: 7px;
+ margin: auto;
+ }
+ .media-container h1{
+  color:   rgba(188, 67, 106, 1);
+}
+.home {
+  color:   rgba(188, 67, 106, 1);
+}
+
+
+.best,.vaca {
+  color: rgba(188, 67, 106, 1);
+}
+.img{
+  
+  width: 312px;
+  height: 312px;
+background-image: url( fone.png);   
+background-repeat: no-repeat;  
+background-size:  contain;
+border-radius: 50%;
+overflow: hidden;
+  margin-left: 140px;
+  position: relative;
+  top: 140px;
+}
+ 
+.topic{
+  position: relative;
+  top: -250px;
+  padding-right: 230px;
+  margin-left: 10px;
+  
+ font-size:  100%;
+}
+ 
+       .border{
+         margin-top: 110px;
+          width: 60px;
+          height: 60px;
+          border: 5px solid green ;
+           position: relative;
+           top: -640px;
+           left: -20px;
+       }
+       .will{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+   position: relative;       
+  top: -580px;
+margin-left:  10px;
+     }
+     .will h3{
+        color: rgba(122, 122, 122, 1) ;
+        font-size: 80%;
+        margin-left: 0px;
+        
+     }
+     .will i {
+      
+position: relative;
+top: 12px;
+left: 20px;
+     }
+     .green{
+          
+      
+               
+              background-color:  rgba(56, 110, 65, 1);
+               margin-left: 0px;
+              border-radius: 10px;
+                 position:  relative;
+                  top: -20px;
+   }
+   .link {
+     padding-top: 20px;
+     margin-left: 30px;
+   color: white;
+  }
+  nav{
+    margin-top: 60px;
+  }
+  .line-first, .line-second, .line-third{
+    border-top: 2px solid white;
+    width: 220px; 
+     
+  }
+  .line-first{
+    position: relative;
+    top: -80px;
+         
+  }
+  .line-second{
+    position: relative;
+    top: -70px;
+    left: 30px;
+  }
+  .line-third{
+    position: relative;
+    top: -80px;
+     
+  }
+  .chevron{
+   
+     float: right;
+     color: white
+           }
+           .one{
+            position: relative;
+            top: -270px;
+            left: -140px;
+           }
+           .two{
+            position: relative;
+            top: -210px;
+            left: -140px;
+           }
+           .tree{
+            position: relative;
+            top: -150px;
+            left: -140px;
+           }
+         .link .red{
+       color: rgba(188, 67, 106, 1) ;
+        padding-bottom: 20px;
+     }
+  }
