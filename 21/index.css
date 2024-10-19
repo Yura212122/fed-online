@@ -1,0 +1,53 @@
+ 
+.container{
+  font-family: "Shadows into Light Two", cursive;
+}
+.top-bg-section{
+ background-image: url(coffee1.png);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  }
+  h1{
+    padding:10%;
+    font-family: "Shadows into Light Two", cursive;
+font-weight: 400;
+line-height: 176.71px;
+ text-shadow: 2px 2px 2px black;
+  }
+  h2{
+    font-family: "Shadows into Light Two", cursive;
+  }
+  h3{
+    background-color:  rgba(255, 255, 255, 0.8);
+     padding: 7%;
+  }
+  button{
+     
+ background-color:   rgba(102, 142, 104, 1);
+     border-radius: 25px;
+    border: none;
+    font-family: "Shadows into Light Two", cursive;
+  }
+ .top-bg-section-second{
+  font-family: "Shadows into Light Two", cursive;
+  margin: 0 auto;
+  background-image: url(cafe1.png);
+  background-repeat: no-repeat;
+  opacity: 95%;
+  text-shadow: 2px 2px 2px black;
+ }
+ .top-bg-section-tree{
+  background-color:   rgba(129, 97, 59, 0.2);
+  margin: 0 auto;
+  font-family: "Shadows into Light Two", cursive;
+ }     
+.bg-light{
+  margin: 0 auto;
+}
+.top-bg-section-four{
+  margin: 0 auto;
+  background-color: black;
+}
+ .row{
+  margin: 0 auto;
+ }
