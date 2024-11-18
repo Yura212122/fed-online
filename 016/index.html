@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <form action="text">
+        <p>
+            Select background:
+        </p>
+        <div>
+            <input type="radio" name="color" id="r" value="red" onchange=" changebg(`red`)">
+            <label for="r">red</label>
+        </div>
+        <div>
+            <input type="radio" name="color" id="g" value="green" onchange=" changebg(`green`)">
+            <label for="g">green</label>
+        </div>
+        <div>
+            <input type="radio" name="color" id="y" value="yellow" onchange=" changebg(`yellow`)">
+            <label for="y">yellow</label>
+        </div>
+       
+    </form>
+    <br>
+    <div>
+        <label for="t1">
+            <input type="checkbox" name="hobby" id="t1" value="hiking">
+          hiking
+        </label>
+    </div>
+    <div>
+        <label for="t2">
+            <input type="checkbox" name="hobby" id="t2" value="jump">
+           jump
+        </label>
+    </div>
+    <div>
+        <label for="t3">
+            <input type="checkbox" name="hobby" id="t3" value="swim">
+           swim
+        </label>
+    </div>
+    <button class="showResult">
+        Show hobby
+    </button>
+    <div class="resultBox"></div>
+    <h1>select country</h1>
+    <select name="country" id="country">
+    <option value="capital:Kiev">
+        Ukrain
+    </option>
+    <option value="capital:Varshava">Poland</option>
+    <option value="capital:Zagreb">Croatia</option>
+    <option value="capital:Tokio">Japane</option>
+    <option value="capital:Vashington">USA</option>
+    </select>
+    <p class="resultcou"></p>
+     <form action="rating">
+        <label>
+            <input type="radio" name="rating" value="1">1
+        </label>
+        <label>
+            <input type="radio" name="rating" value="2">2
+        </label>
+        <label>
+            <input type="radio" name="rating" value="3">3
+        </label>
+        <label>
+            <input type="radio" name="rating" value="4">4
+        </label>
+        <label>
+            <input type="radio" name="rating" value="5">5
+        </label>
+     </form>
+     <p id="result"></p>
+</body>
+</html>
