@@ -1,0 +1,12 @@
+:root{
+    --bg-color:green;
+    --text-color:white;
+    --title-color:yellow;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+h1{
+    color: var(--title-color);
+}
