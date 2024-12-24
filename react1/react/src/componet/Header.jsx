@@ -1,8 +1,14 @@
 import React from 'react';
-
+ 
  
  
 const Header = () => {
+let links = [`メニュー`,`お問い合わせ`,`お知らせ`]
+let libksel = links.map((item,index)=>{
+  return <li key={index} className="nav-item">
+  <a className="nav-link px-1 text-light"  href="#">{item}</a>  
+</li>
+});
     return (
     <>
 
@@ -24,15 +30,16 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" style={{  justifyContent: "flex-end" }} id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active text-light" aria-current="page" href="#">メニュー</a>
+            {libksel}
+            {/* <li className="nav-item">
+                <a className="nav-link px-1 text-light"  href="#">メニュー</a>  
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light px-5" href="#">お問い合わせ</a>
+               <a className="nav-link px-1 text-light " href="#">お問い合わせ</a> 
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled text-light" aria-disabled="true">お知らせ</a>
-            </li>
+               <a className="nav-link  px-1 text-light" href="#">お知らせ</a> 
+            </li> */}
           </ul>
         </div>
       </div>

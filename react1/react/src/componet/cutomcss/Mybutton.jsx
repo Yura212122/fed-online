@@ -1,6 +1,11 @@
 import React from 'react';
  
 const Mybutton = () => {
+  const menu =()=>{
+    alert(`Alcohol , Snack`)
+
+     
+  }
     return (
  <>
  <section className="menu">
@@ -48,7 +53,7 @@ const Mybutton = () => {
     </div>
   </div>
   <div className="p-5 w-100 mx-auto text-center">
-    <button
+    <button onClick={menu}
       className="p-2 text-light"
       style={{backgroundColor: "rgba(102, 142, 104, 1)",borderRadius:"25px", minWidth: "13%" }}
     >
