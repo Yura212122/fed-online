@@ -3,40 +3,27 @@ import React from 'react';
 const Footer = () => {
     return (
        
-       <footer>
-<div class="green">
-            <div class="link">
-                <nav>Country</nav>
-                <nav>City</nav>
-               
-                <nav>Place</nav>
-              
-                <nav class="red">Search Place</nav>
-                 
-                </div>
-                <div class="chevron">
-                    <div class="one">
-                     <i class="fa-solid fa-chevron-down"></i>
-                     </div>
- <div class="two"><i class="fa-solid fa-chevron-down"></i>
-</div>
-<div class="tree">
-   <i class="fa-solid fa-chevron-down"></i>
-</div>
-  </div>
-            <div class="line">
- <div class="line-second">
- <div class="line-third"> 
- <div class="line-first">  
-
-</div>       
-         </div>
- </div>
-   
-    
+     <>
+ <footer className="top-bg-section-four" style={{ width: "90%" }}>
+  <div className="container text-light py-3 w-100">
+    <div className="row justify-content-between" style={{ width: "70%" }}>
+      <div className="col-xs-12 col-md-4">
+        <p className="py-5">
+          東京都港区赤坂xx-xx <br />
+          (03) 9999-9999 <br />
+          contact@designcafe.com
+        </p>
+      </div>
+      <div className="col-xs-12 col-md-4">
+        <p className="py-5">
+          (c) 2022 DesignCafé. All rights reserved.
+        </p>
+      </div>
     </div>
-        </div>
-        </footer>
+  </div>
+</footer>
+
+     </>  
        
     );
 };

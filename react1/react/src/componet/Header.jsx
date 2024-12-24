@@ -1,24 +1,45 @@
 import React from 'react';
- import TextComponent from './TextComponent';
+
+ 
+ 
 const Header = () => {
     return (
     <>
-<header>
-        <div class="container">
-            <h1>
-                Traveles
-            </h1>
-            <div class="second-container">
-             <h class="home">Home</h>
-             <h>Destinations</h>
-             <h>Gallery</h>
-             <h>About Us</h>
-             <h class="book">Book Guide</h>
-            </div>
-        </div>
-        <TextComponent></TextComponent>
-    </header>
 
+ <header style={{ backgroundColor: "rgba(102, 142, 104, 1)", width: "90%", margin:"0 auto"}}>
+  <div className="container">
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand fs-1 p-3 text-light" href="#">DesignCafé</a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" style={{  justifyContent: "flex-end" }} id="navbarSupportedContent">
+          <ul className="navbar-nav mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active text-light" aria-current="page" href="#">メニュー</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-light px-5" href="#">お問い合わせ</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link disabled text-light" aria-disabled="true">お知らせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+  
     </>
     
     );
