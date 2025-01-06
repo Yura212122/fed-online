@@ -8,6 +8,7 @@
  import Section from "./componet/Section"
   import logoone from "./assets/cafe1.png"
   import SectionSecond from "./componet/SectionSecond"
+   import Pricing from "./componet/pricing"
 function App() {
   
   return (
@@ -17,6 +18,8 @@ function App() {
      <TextComponent></TextComponent>
     </div>
        <Mybutton></Mybutton>
+
+       <Pricing></Pricing>
        <div className=""  style={{  backgroundImage: `url(${logoone})`, width:"90%", margin:"0 auto", padding:"1%"}}>
        <Section></Section>
        </div>
@@ -27,6 +30,7 @@ function App() {
        <div className="" style={{backgroundColor:"black",width:"90%", margin:"0 auto", padding:"1%"}}>
      <Footer></Footer>
      </div>
+    
     </>
   )
 }

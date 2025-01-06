@@ -1,5 +1,5 @@
 import React from 'react';
-
+ import Counter from './counter';
 const Footer = () => {
     return (
        
@@ -18,10 +18,15 @@ const Footer = () => {
         <p className="py-5">
           (c) 2022 DesignCafé. All rights reserved.
         </p>
-      </div>
     </div>
+     <div className=" col-xs-12 col-md-4 py-5">
+  <Counter></Counter>
   </div>
+  </div>
+  </div>
+ 
 </footer>
+ 
 
      </>  
        
