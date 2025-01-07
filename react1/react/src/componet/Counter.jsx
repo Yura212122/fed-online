@@ -6,7 +6,7 @@ const Counter = () => {
     function changeUser(e) {
         setUsername(e.target.value);
     }
-
+ 
     return (
         <div>
             <input

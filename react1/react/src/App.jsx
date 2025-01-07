@@ -9,17 +9,20 @@
   import logoone from "./assets/cafe1.png"
   import SectionSecond from "./componet/SectionSecond"
    import Pricing from "./componet/pricing"
+   import Useeffect from "./componet/Useeffect"
 function App() {
   
   return (
     <>
  <Header></Header>
+
       <div className=""  style={{  backgroundImage: `url(${logo})`, width:"90%", margin:"0 auto", padding:"13%"}}>
      <TextComponent></TextComponent>
     </div>
        <Mybutton></Mybutton>
 
        <Pricing></Pricing>
+        <Useeffect></Useeffect>
        <div className=""  style={{  backgroundImage: `url(${logoone})`, width:"90%", margin:"0 auto", padding:"1%"}}>
        <Section></Section>
        </div>

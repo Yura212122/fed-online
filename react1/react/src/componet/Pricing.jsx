@@ -76,7 +76,7 @@ function Pricing(props) {
                         className='w-100'
                         onChange={changeMemory}
                         value={productMemory} 
-                        placeholder='setting center' 
+                        placeholder='setting center ' 
                         type="text" />
                     </div>
                      
