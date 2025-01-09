@@ -10,6 +10,7 @@
   import SectionSecond from "./componet/SectionSecond"
    import Pricing from "./componet/pricing"
    import Useeffect from "./componet/Useeffect"
+   import Useref from "./componet/Useref" 
 function App() {
   
   return (
@@ -23,6 +24,9 @@ function App() {
 
        <Pricing></Pricing>
         <Useeffect></Useeffect>
+        <div className="container">
+        <Useref></Useref>
+        </div>
        <div className=""  style={{  backgroundImage: `url(${logoone})`, width:"90%", margin:"0 auto", padding:"1%"}}>
        <Section></Section>
        </div>
