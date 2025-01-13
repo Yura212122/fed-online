@@ -11,6 +11,7 @@
    import Pricing from "./componet/pricing"
    import Useeffect from "./componet/Useeffect"
    import Useref from "./componet/Useref" 
+  import App   from "./componet/Context"
 function App() {
   
   return (
@@ -24,9 +25,11 @@ function App() {
 
        <Pricing></Pricing>
         <Useeffect></Useeffect>
+    <App ></App>
         <div className="container">
         <Useref></Useref>
         </div>
+             
        <div className=""  style={{  backgroundImage: `url(${logoone})`, width:"90%", margin:"0 auto", padding:"1%"}}>
        <Section></Section>
        </div>
