@@ -16,6 +16,10 @@ import Header from "./componet/Header"
     import ContextApp from "./componet/Context"
     import PostTable from "./componet/User"
 import { useState } from "react"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import About from "./componet/About"
+import Contact from "./componet/cutomcss/Contact"
+import Home from "./componet/Home"
   function App(){
  
     const [showCounter, setShowCounter] = useState(true);
@@ -32,7 +36,14 @@ import { useState } from "react"
     }
   return (
     <>
- <Header></Header>
+ <Router>
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/About" element={<About></About>}></Route>
+        <Route path="/Contact" element={<Contact></Contact>}></Route>
+      </Routes>
+    </Router>
 
       <div className=""  style={{  backgroundImage: `url(${logo})`, width:"90%", margin:"0 auto", padding:"13%"}}>
      <TextComponent></TextComponent>
@@ -42,6 +53,7 @@ import { useState } from "react"
        <Pricing></Pricing>
         <Useeffect></Useeffect>
     <ContextApp ></ContextApp>
+    
     <ul>
       {selectedPost.map((post,index)=>{
         return <li kay={index} className="">{post.id} <button className="btn btn-danger" onClick={()=>removePost(index)}></button></li>

@@ -1,5 +1,5 @@
 import React from 'react';
- 
+import { Link } from 'react-router-dom'
  
  
 const Header = () => {
@@ -13,6 +13,11 @@ let libksel = links.map((item,index)=>{
     <>
 
  <header style={{ backgroundColor: "rgba(102, 142, 104, 1)", width: "90%", margin:"0 auto"}}>
+ <nav className="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <Link className="me-3 py-2 text-dark text-decoration-none fs-5" to='/'>Home</Link>
+                <Link className="me-3 py-2 text-dark text-decoration-none fs-5" to='/about'>About</Link>
+                <Link className="me-3 py-2 text-dark text-decoration-none fs-5"  to='/country'>Country</Link>
+                </nav>
   <div className="container">
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
