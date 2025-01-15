@@ -1,4 +1,6 @@
- import Header from "./componet/Header"
+
+import Header from "./componet/Header"
+
   import Footer from "./componet/Footer"
   import TextComponent from "./componet/TextComponent"
   import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,10 +12,24 @@
   import SectionSecond from "./componet/SectionSecond"
    import Pricing from "./componet/pricing"
    import Useeffect from "./componet/Useeffect"
-   import Useref from "./componet/Useref" 
-  import App   from "./componet/Context"
-function App() {
-  
+   import Useref from "./componet/Useref"
+    import ContextApp from "./componet/Context"
+    import PostTable from "./componet/User"
+import { useState } from "react"
+  function App(){
+ 
+    const [showCounter, setShowCounter] = useState(true);
+    const [propTitle, setPropTitle] = useState('Old title value');
+    function changeTitle(){
+      setPropTitle('New value');
+    }
+    const [selectedPost, setSelectedPost] = useState([]);
+    function slectPost (post){
+      setSelectedPost(slectPost =>[... slectPost,post])
+    }
+    function removePost (indexRemove){
+      setSelectedPost(post=>post.filter((value,index)=>index !== indexRemove));
+    }
   return (
     <>
  <Header></Header>
@@ -25,7 +41,13 @@ function App() {
 
        <Pricing></Pricing>
         <Useeffect></Useeffect>
-    <App ></App>
+    <ContextApp ></ContextApp>
+    <ul>
+      {selectedPost.map((post,index)=>{
+        return <li kay={index} className="">{post.id} <button className="btn btn-danger" onClick={()=>removePost(index)}></button></li>
+      })}
+    </ul>
+    <PostTable title= "" onSelectPost={slectPost}></PostTable>
         <div className="container">
         <Useref></Useref>
         </div>
