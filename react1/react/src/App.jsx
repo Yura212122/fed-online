@@ -18,8 +18,8 @@ import Header from "./componet/Header"
 import { useState } from "react"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import About from "./componet/About"
-import Contact from "./componet/cutomcss/Contact"
-import Home from "./componet/Home"
+import Contact from "./componet/Contact"
+  import Home from "./componet/Home"
   function App(){
  
     const [showCounter, setShowCounter] = useState(true);
